@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "style_font_zhanku";
+    src: url("style_font_zhanku.eot"); /* IE9 */
+    src: url("style_font_zhanku.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("style_font_zhanku.woff") format("woff"), /* chrome、firefox */
+    url("style_font_zhanku.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("style_font_zhanku.svg#style_font_zhanku") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

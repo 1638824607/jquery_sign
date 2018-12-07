@@ -1,0 +1,245 @@
+.new_books{
+    background: #fff;
+    margin: 30px auto;
+}
+.new_books .new_book_left{
+    width: 15%;
+    max-width: 180px;
+    overflow: hidden;
+}
+.new_books .new_book_left h1,.new_book_right .booktops h1{
+    font-size: 18px;
+    color: #ad8b51;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 15px;
+}
+.new_books .new_book_left h1 b,.new_book_right .booktops h1 b{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../img/bookcats.png) no-repeat center ;
+    background-size: contain;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+.new_book_right .booktops h1 b{
+    background: url(../img/booktops.png) no-repeat center ;
+    background-size: contain;
+}
+.new_books .new_book_left h1 em,.new_book_right .booktops h1 em{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    border-bottom: 1px solid #e6d6bb;
+}
+.new_book_left .lcont{
+    border: 1px solid #f0ecda;
+    overflow: hidden;
+    padding: 15px 15px 0;
+}
+.new_book_left .bookcat {
+    border: #fff;
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+.new_book_left .bookcat li{
+    float: left;
+    width: 50%;
+    border-bottom: 1px dashed #f0ecda;
+    padding: 15px 0;
+}
+.new_book_left .bookcat a{
+    font-size: 14px;
+    color: #000;
+    padding: 0 2px;
+}
+/*鼠标*/
+.new_book_left .bookcat .active,.new_book_left .bookcat a:hover,.new_book_right .booktops p .active,.new_book_right .booktops p a:hover{
+    color: #fff;
+    background: #d7b882;
+}
+.new_books .new_book_right{
+    width: 82.5%;
+    max-width: 990px;
+    margin-left: 2.5%;
+}
+.new_books .new_book_right .booktops{
+    border: 1px solid #ebe6e1;
+    padding: 14px 10px;
+}
+.new_book_right .booktops .fr{
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+}
+.booktops h1 .fr a{
+    display: inline-block;
+    margin-left: 20px;
+    color: #000;
+}
+.booktops h1 .fr .active,.booktops h1 .fr a:hover{
+    color: #ad8b51;
+}
+.new_book_right .booktops p{
+    font-size: 14px;
+    color: #888;
+    margin: 10px 0 0;
+    background: #f8f8f4;
+    padding: 12px ;
+}
+.new_book_right .booktops p a{
+    margin: 0 12px;
+    padding: 0 2px;
+}
+.new_book_right .booktops p span{
+    display: inline-block;
+    margin: 0 15px;
+}
+.new_book_right .booktops p span:first-child{
+    margin-left: 0;
+}
+.new_book_right .booklists{
+    margin: 15px -1.5%;
+    overflow: hidden;
+}
+.new_book_right .booklists li{
+    float: left;
+    width: 47%;
+    height:170px;
+    margin: 15px 1.5%;
+    border: 1px solid #ebe6e1;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.new_book_right .booklists li:hover{
+    box-shadow: 0 5px 10px #e5e5e5;
+}
+.new_book_right .booklists li:hover h2 a{
+    color: #d7b882;
+}
+.new_book_right .booklists img{
+    width: 100%;
+}
+.new_book_right .booklists .bookimg{
+    width: 24%;
+}
+.new_book_right .booklists .booktitle{
+    width: 74%;
+    margin-left: 2%;
+}
+.booklists .booktitle h2{
+    font-size: 14px;
+    color: #888;
+}
+.booklists .booktitle h2 a{
+    font-weight: 600;
+    color: #373737;
+    font-size: 20px;
+    display: inline-block;
+    width: 82%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-all;
+    padding: 2px 0;
+}
+.booklists .booktitle h2 .fr{
+    position: relative;
+    top: 5px;
+    width: 20%;
+}
+.booklists .booktitle h3{
+    padding: 15px 0 20px;
+}
+.booklists .booktitle h3 a,.booklists .booktitle p{
+    font-size: 12px;
+    color: #888;
+}
+.booklists .booktitle h3 a{
+    display: inline-block;
+    margin-right: 10px;
+}
+.booklists .booktitle p{
+    line-height: 24px;
+    text-indent: 2em;
+    max-height: 72px;
+    overflow: hidden;
+}
+/*分页*/
+
+.N_page{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.N_pagemore{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+.N_pageBtn{
+    display: inline-block;
+    padding:0 10px;
+    color:#8f8f8f;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    background: #eee;
+    margin-right: 10px;
+    border-radius:3px;
+}
+.N_pageBtn:hover{
+    background: #d7b882;
+    color:white;
+}
+
+.N_page .active{
+    background: #d7b882;
+    color:white;
+}
+.N_pageN,.N_pageP{
+    float: right;
+    margin-left: 15px;
+    background: #d7b882;
+    color:white;
+    line-height: 30px;
+    margin-top: 10px;
+    padding:0 10px;
+    border-radius:3px;
+    font-size: 12px;
+}
+.N_pageN:hover,.N_pageP:hover,.N_page .active:hover{
+    background:#ccc;
+    color:white;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

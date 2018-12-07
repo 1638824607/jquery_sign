@@ -1,0 +1,97 @@
+.boardSetCenter{
+    width: 1000px;
+    margin:0 auto;
+    position: relative;
+}
+.readLoading{
+    text-align: center;
+    padding-top: 20px;
+    display: none;
+}
+.goToNextChapter{
+    display: block;
+    width: 848px;
+    margin:0 auto;
+    height: 70px;
+    line-height: 70px;
+    color: #4d4d4d;
+    font-size: 18px;
+    text-align: center;
+}
+.goToNextChapter:hover{color: #4d4d4d;}
+.goToNextChapterStyle{width:500px;height: 50px;line-height: 50px;background: #eee;cursor:pointer;border-radius: 5px;margin:0 auto;}
+.goToNextChapterStyle:hover{background: #ccc;}
+.search_frameWrap{
+    width: 850px;
+    margin:0 auto;
+    min-height: 200px;
+}
+.search_frame{
+    height: 80px;
+    border:1px solid #e0e0e0;
+    border-radius: 50px;
+    margin-top: 60px;
+    background: #fbfbfb;
+}
+.search_Input{
+    border: none;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    width: 680px;
+    margin-top: 13px;
+    margin-left: 40px;
+    float: left;
+    background: #fbfbfb;
+}
+.search_frameBtn{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 13px;
+    border-left: 1px solid #e0e0e0;
+    background: url(../img/searchLogo.png) no-repeat center;
+    background-size: 30px auto;
+}
+.search_notice{
+    text-indent: 40px;
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-top: 20px;
+}
+.search_notice .ResumeColor{margin-left: 30px;}
+.search_result{
+    margin-top: 50px;
+}
+.search_resultTop{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.searchContent{
+    padding:20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.searchBookImg{
+    float: left;
+    width: 80px;
+    margin-right: 15px;
+}
+.searchContent .NameColor{font-size: 18px;}
+.searchBookInf{
+    margin-top: 7px;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.searchBookInf a{margin-right: 20px;}
+.searchBookInf span{margin-right: 30px;}
+.search_resultResume{
+    font-size: 14px;
+    color: #8f8f8f;
+    line-height: 25px;
+    margin-top: 12px;
+    height: 50px;
+    overflow: hidden;
+}

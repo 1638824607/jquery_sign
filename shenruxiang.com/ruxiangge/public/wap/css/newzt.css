@@ -1,0 +1,212 @@
+.newzt{
+    background: url(../img/bg.jpg) no-repeat center top;
+    background-size: cover;
+    padding-bottom: 0px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.newzt .topban{
+    position: relative;
+}
+.newzt .topban h2{
+    position: absolute;
+    bottom: 2rem; 
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 12rem; 
+    font-size: 0.9rem; 
+    color: #fff;
+    padding: 2px 0 3px;
+    -ms-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    text-align: center;
+    font-style: italic;
+    display: none;
+}
+.newzt .newbklist{
+    margin: 2rem -1.5% 1rem;
+    overflow: hidden;
+}
+.newzt .newbklist li{
+    width: 47%; 
+    height: 100%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0.6rem 1.5%;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.newbklist .lis{ 
+    background: #fff; 
+    text-align: justify;
+}
+.newbklist .lis .cont{ 
+    display: block; 
+    padding: 1.2rem;
+}
+.newbklist li .recommend-img-a{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.newbklist li .bookimg {
+    width:100%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+}
+.newbklist .users{
+    width: 20px;
+    height: 20px;
+    -ms-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 0px;
+    margin-right: 5px;
+}
+.newbklist li h3{
+    text-align: center;
+    font-size:1.24rem ;
+    color: #373737;
+    margin: 1.3rem 0 1rem; 
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2; 
+}
+.newbklist li p{
+    color: #8a8a8a;
+    font-size:1rem ; 
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+.newbklist li h6{
+    height: 1px;
+    background: #d7b882;
+    position: relative;
+    width: 100%; 
+    margin: 1.3rem 0 1rem;
+}
+.newbklist li h6 b{
+    background: #fff;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70px;
+    font-size: 1rem;
+    text-align: center;
+    color: #d7b882;
+}
+.newbklist li h5{
+    font-size: 1rem;
+    color: #373737;
+    line-height: 1.6rem;
+}
+.newbklist li p,.newbklist li h5{
+/*
+overflow:hidden; 
+text-overflow:ellipsis;
+display:-webkit-box; 
+-webkit-box-orient:vertical;
+-webkit-line-clamp:3; 
+    padding: 2px 0;
+*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-flex; 
+    display: flex; 
+    padding: 2px 0; 
+    height: 50px;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.newbklist li h4{
+    margin: 1rem 0 0;
+}
+.newbklist li h4 a{
+    font-size: 1.24rem;
+    color: #fff;
+    line-height: 30px;
+    background: #d7b882;
+    display: block;
+    text-align: center;
+        -ms-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.newztmore{ 
+    background: #fff;
+    padding: 15px 0;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.newztmore h2{  
+    color: #fd8c02; 
+    border-bottom: 1px solid #f4f4f4;  
+    position: relative;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}  
+.newztmore ul{
+    margin: 0 auto;
+}
+.newztmore li{
+    float: left;
+    width: 100%;
+    margin: 0.8rem 0;
+    border-bottom: 1px dashed #eeead5; 
+} 
+.newztmore li img{
+    width: 100%;
+}
+.newztmore li h3{
+    font-size: 1.2rem;
+    color: #888;
+    padding: 1.3rem 0 ;
+    width: 100%;
+}
+.newztmore li .left{
+    width: 50%;
+}
+.newztmore li .right{
+    width: 50%;
+    text-align: right;
+}
+.nmore{
+    background: #eaeaea;
+    color: #a6a6a6;
+    font-size: 1.16rem;
+    text-align: center;
+    padding: 15px 0;     
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+@media(max-width:375px){
+    .newzt .topban h2{ 
+    bottom: 1.9rem;  
+}
+}
+@media(max-width:320px){
+    .newzt .topban h2{ 
+    bottom: 1.6rem;  
+}
+}
